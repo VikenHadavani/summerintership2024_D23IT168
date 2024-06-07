@@ -44,19 +44,22 @@ The internsip period is of 4 weeks with focus on Labs and Practical Insights to 
 - Launched an EC2 instance from the free tier options (Task 5).
 
 
-  ### Day 2: creating instance with apache server to deploy web page
+### Day 2: creating instance with apache server to deploy web page
 - Connected to the EC2 Instance (Task 6):
 After launching the EC2 instance, I connected to it using SSH. This allowed me to access the virtual server, which is essentially a remote computer running on AWS infrastructure. The connection was established securely using the provided key pair, ensuring that my data remains protected.
-(-Commands : 
+
+-Commands : 
 shell- to write command in it
 pwd-current web directory
-whoami-this will which user is as logged in this account )
+whoami-this will which user is as logged in this account
 
 - Installed an Apache Web Server on the Linux Instance (Task 7):
 Once connected, I installed Apache, a widely-used open-source web server software. Apache is crucial for serving web pages to users. The installation involved updating the package repositories and using package management commands to install Apache on the Linux-based EC2 instance.
-(-Commands : sudo su-to elevate your credentials to root
+
+-Commands : 
+sudo su-to elevate your credentials to root
 yum install -y httpd- to install apache web server(Linux server)
-cd /var/www/html- to create a HTML file into directory)
+cd /var/www/html- to create a HTML file into directory
 
 - Deployed a Personal page.html on Apache (Task 8):
-With Apache running, I deployed a simple HTML page (page.html). This involved placing the HTML file in Apache’s root directory and configuring the server to serve this page. Deploying the HTML page allowed me to create a personal webpage accessible over the internet via the EC2 instance's public IP address.
+With Apache running, I deployed a simple HTML page (Personalpage.html). This involved placing the HTML file in Apache’s root directory and configuring the server to serve this page. Deploying the HTML page allowed me to create a personal webpage accessible over the internet via the EC2 instance's public IP address.
