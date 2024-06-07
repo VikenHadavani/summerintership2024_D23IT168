@@ -14,7 +14,7 @@ The internsip period is of 4 weeks with focus on Labs and Practical Insights to 
 
 # Start of Internship
 
-## 1️⃣ DAY 1
+## 1️⃣ week 1
 ### *28th May 2024*
 - *Orientation Meeting*: Introduction to AWS and overview of the internship tasks
 - At the start of meeting I tackled questions regarding aws to know its base. Then the 1st week agenda regarding the tasks to be done was discussed. The tasks including from the start of creating an account to generating a portfolio hosted on a aws instance.
@@ -44,7 +44,7 @@ The internsip period is of 4 weeks with focus on Labs and Practical Insights to 
 - Launched an EC2 instance from the free tier options (Task 5).
 
 
-  ### Day 2: 
+  ### Day 2: creating instance with apache server to deploy web page
 - Connected to the EC2 Instance (Task 6):
 After launching the EC2 instance, I connected to it using SSH. This allowed me to access the virtual server, which is essentially a remote computer running on AWS infrastructure. The connection was established securely using the provided key pair, ensuring that my data remains protected.
 (-Commands : 
