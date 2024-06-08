@@ -99,8 +99,9 @@ Utilized event listeners and DOM manipulation to create a more engaging user exp
 -SASS: Enhanced the CSS with advanced features for better maintainability and efficiency.
 -CSS: Styled the website to improve visual appeal and user experience.
 
-### Day 5: 
+### Day 5: Configuration and final Touchup
 -Configured the Security Group for the Apache server on the EC2 instance to accept incoming connections on port 80. This involved adding an inbound rule in the Security Group settings to allow HTTP traffic, ensuring that the web server is accessible from the internet.(Task 9)
+
 -Verified the configuration by accessing the personal webpage hosted on the EC2 instance. Used the public IP address of the instance in a web browser to confirm that the Apache server is serving the webpage correctly. This demonstrated successful setup and configuration of the web server.(Task 10)
 
 -Here is the finalised link : http://52.63.0.141/personalpage.html
