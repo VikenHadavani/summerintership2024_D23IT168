@@ -45,68 +45,98 @@ The internsip period is of 4 weeks with focus on Labs and Practical Insights to 
 
 
 ### Day 2: creating instance with apache server to deploy web page
-- Connected to the EC2 Instance (Task 6):
-After launching the EC2 instance, I connected to it using SSH. This allowed me to access the virtual server, which is essentially a remote computer running on AWS infrastructure. The connection was established securely using the provided key pair, ensuring that my data remains protected.
+➠Connected to the EC2 Instance (Task 6):
+- After launching the EC2 instance, I connected to it using SSH. This allowed me to access the virtual server, which is essentially a remote computer running on AWS infrastructure. The connection was established securely using the provided key pair, ensuring that my data remains protected.
 
--Commands : 
-shell- to write command in it
-pwd-current web directory
-whoami-this will which user is as logged in this account
+➠ Commands : 
+- shell- to write command in it
+- pwd-current web directory
+- whoami-this will which user is as logged in this account
 
-- Installed an Apache Web Server on the Linux Instance (Task 7):
-Once connected, I installed Apache, a widely-used open-source web server software. Apache is crucial for serving web pages to users. The installation involved updating the package repositories and using package management commands to install Apache on the Linux-based EC2 instance.
+➠ Installed an Apache Web Server on the Linux Instance (Task 7):
+- Once connected, I installed Apache, a widely-used open-source web server software. Apache is crucial for serving web pages to users. The installation involved updating the package repositories and using package management commands to install Apache on the Linux-based EC2 instance.
 
--Commands : 
-sudo su-to elevate your credentials to root
-yum install -y httpd- to install apache web server(Linux server)
-cd /var/www/html- to create a HTML file into directory
+➠ Commands : 
+- sudo su-to elevate your credentials to root
+- yum install -y httpd- to install apache web server(Linux server)
+- cd /var/www/html- to create a HTML file into directory
 
-- Deployed a Personal page.html on Apache (Task 8):
-With Apache running, I deployed a simple HTML page (Personalpage.html). This involved placing the HTML file in Apache’s root directory and configuring the server to serve this page. Deploying the HTML page allowed me to create a personal webpage accessible over the internet via the EC2 instance's public IP address.
+➠Deployed a Personal page.html on Apache (Task 8):
+- With Apache running, I deployed a simple HTML page (Personalpage.html). This involved placing the HTML file in Apache’s root directory and 
+  configuring the server to serve this page. Deploying the HTML page allowed me to create a personal webpage accessible over the internet via 
+  the EC2 instance's public IP address.
 
 ### Day 3: Building the Portfolio
 
 ➠ Setting Up the Project Structure:
--Created a project directory on the EC2 instance for the portfolio website. This included folders for HTML, CSS, JavaScript, and assets like images and fonts.
--Initialized the project with a basic index.html file to serve as the homepage.
+- Created a project directory on the EC2 instance for the portfolio website. This included folders for HTML, CSS, JavaScript, and assets like images and fonts.
+- Initialized the project with a basic index.html file to serve as the homepage.
 
 ➠ Creating the HTML Structure:
--Developed the initial structure of the portfolio using HTML5. This involved creating sections for the header, about me, projects, and contact information.
--Ensured the HTML code was semantic and well-organized to improve readability and SEO.
+- Developed the initial structure of the portfolio using HTML5. This involved creating sections for the header, about me, projects, and contact information.
+- Ensured the HTML code was semantic and well-organized to improve readability and SEO.
 
 ➠ Integrating Bootstrap:
--Incorporated Bootstrap, a popular CSS framework, to make the portfolio responsive and visually appealing.
+- Incorporated Bootstrap, a popular CSS framework, to make the portfolio responsive and visually appealing.
 Used Bootstrap components like navigation bars, cards, and buttons to enhance the design and functionality of the website.
 
 ### Day 4: Enhancing with JavaScript, SASS, and CSS
 
 ➠Adding Interactivity with JavaScript:
-Implemented JavaScript to add interactive features to the portfolio, such as form validation for the contact section and dynamic content loading for the projects section.
+- Implemented JavaScript to add interactive features to the portfolio, such as form validation for the contact section and dynamic content loading for the projects section.
 Utilized event listeners and DOM manipulation to create a more engaging user experience.
 
 ➠ Styling with SASS and CSS:
--Used SASS (Syntactically Awesome Style Sheets) to write more maintainable and modular CSS code. SASS variables, nesting, and mixins helped streamline the styling process.
--Compiled SASS files into CSS and applied custom styles to enhance the visual aesthetics of the portfolio. This included customizing Bootstrap themes and adding unique design elements.
+- Used SASS (Syntactically Awesome Style Sheets) to write more maintainable and modular CSS code. SASS variables, nesting, and mixins helped streamline the styling process.
+- Compiled SASS files into CSS and applied custom styles to enhance the visual aesthetics of the portfolio. This included customizing Bootstrap themes and adding unique design elements.
 
 ➠ Finalizing the Deployment:
--Ensured all the files were correctly linked and the website was functioning as intended.
--Tested the portfolio on different browsers and devices to ensure compatibility and responsiveness.
+- Ensured all the files were correctly linked and the website was functioning as intended.
+- Tested the portfolio on different browsers and devices to ensure compatibility and responsiveness.
 
 ➠Technologies Explored
--HTML5: Structured the content and elements of the portfolio.
--Bootstrap: Provided a responsive and modern design framework.
--JavaScript: Added interactivity and dynamic functionality to the website.
--SASS: Enhanced the CSS with advanced features for better maintainability and efficiency.
--CSS: Styled the website to improve visual appeal and user experience.
+- HTML5: Structured the content and elements of the portfolio.
+- Bootstrap: Provided a responsive and modern design framework.
+- JavaScript: Added interactivity and dynamic functionality to the website.
+- SASS: Enhanced the CSS with advanced features for better maintainability and efficiency.
+- CSS: Styled the website to improve visual appeal and user experience.
 
 ### Day 5: Configuration and final Touchup
--Configured the Security Group for the Apache server on the EC2 instance to accept incoming connections on port 80. This involved adding an inbound rule in the Security Group settings to allow HTTP traffic, ensuring that the web server is accessible from the internet.(Task 9)
+- Configured the Security Group for the Apache server on the EC2 instance to accept incoming connections on port 80. This involved adding an inbound rule in the Security Group settings to allow HTTP traffic, ensuring that the web server is accessible from the internet.(Task 9)
 
--Verified the configuration by accessing the personal webpage hosted on the EC2 instance. Used the public IP address of the instance in a web browser to confirm that the Apache server is serving the webpage correctly. This demonstrated successful setup and configuration of the web server.(Task 10)
+- Verified the configuration by accessing the personal webpage hosted on the EC2 instance. Used the public IP address of the instance in a web browser to confirm that the Apache server is serving the webpage correctly. This demonstrated successful setup and configuration of the web server.(Task 10)
 
--Here is the finalised link : http://52.63.0.141/personalpage.html
+- Here is the finalised link : http://52.63.0.141/personalpage.html
 
 ## Notes:
-We were given this repo which contains basic documentation of AWS services which can be helpful to everybody --
+➠We were given this repo which contains basic documentation of AWS services which can be helpful to everybody --
 https://github.com/hamidgholami/accp-cheatsheet
 
+## 2️⃣ week 2
+### *4th June 2024*
+- *Orientation Meeting*: Learning about storage and S3 with its related services ,also swictching from EC2 to S3
+- In the start of meeting we were asked rapid questions regarding week 1 task.
+
+### *Here is the Outine of Week-2:*
+1. Create a Bucket
+2. Make it private
+3. Upload files
+4. Encrypt the files
+5. Create a Distribution 
+6. Integrate it with S3
+7. Create a new KMS Key
+8. Change the Default Key for your bucket to this new key
+9. Find out these events and logs for them in Cloudtrail
+10. Shutdown the EC2 instance we created in first week
+
+## 📝 Day-by-Day Progress
+
+### Day 1: Creating and Configuring an S3 Bucket
+➠ Created a new S3 bucket:
+- I started by creating a new Amazon S3 bucket. Amazon S3 is a scalable object storage service that allows for the storage and retrieval of any amount of data at any time.
+ 
+➠ Set the bucket's permissions to private:
+- Ensured the bucket's security by setting its permissions to private, making sure that only authorized users have access to the stored data.
+  
+➠ Uploaded files to the bucket:
+- Uploaded various files to the S3 bucket to test storage and retrieval capabilities. This provided hands-on experience with S3's upload functionalities and permissions settings.
