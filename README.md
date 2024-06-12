@@ -23,6 +23,7 @@ The internsip period is of 4 weeks with focus on Labs and Practical Insights to 
 
 
 ### *Here is the Outine of Week-1:*
+
 1. Create an AWS Free Tier account
 2. Log on to the AWS Console
 3. AWS Billing and Cost Management
@@ -114,8 +115,10 @@ https://github.com/hamidgholami/accp-cheatsheet
 
 ## 2️⃣ week 2
 ### *4th June 2024*
-- *Orientation Meeting*: Learning about storage and S3 with its related services ,also swictching from EC2 to S3
+- *Online Session*: Learning about storage and S3 with its related services ,also swictching from EC2 to S3
 - In the start of meeting we were asked rapid questions regarding week 1 task.
+  ![AWS Cloudfront](https://media.licdn.com/dms/image/C4E12AQEYszsOFAPr5w/article-cover_image-shrink_423_752/0/1604073753428?e=1723680000&v=beta&t=jL2yIMG8R1YzgOTl7VSfr4YN6m50WtYwZTvAFLipRRE)
+
 
 ### *Here is the Outine of Week-2:*
 1. Create a Bucket
@@ -140,3 +143,14 @@ https://github.com/hamidgholami/accp-cheatsheet
   
 ➠ Uploaded files to the bucket:
 - Uploaded various files to the S3 bucket to test storage and retrieval capabilities. This provided hands-on experience with S3's upload functionalities and permissions settings.
+
+### Day 2: Securing and Distributing Content
+➠ *Enabled encryption for the uploaded files*:
+  - To enhance data security, I enabled server-side encryption for the files uploaded to the S3 bucket. This ensures that data is encrypted at rest, protecting it from unauthorized access.
+    
+➠ *Created a CloudFront distribution and integrated it with the S3 bucket*:
+  - Created an Amazon CloudFront distribution to deliver content stored in the S3 bucket with low latency and high transfer speeds. This involved setting up the distribution and linking it to the S3 bucket, demonstrating how CloudFront can improve content delivery performance.
+
+- CDN(Content Delivery Network) --
+
+<img src="https://d1.awsstatic.com/products/cloudfront/product-page-diagram_CloudFront_HIW.475cd71e52ebbb9acbe55fd1b242c75ebb619a2e.png" width="550" height="300"/>
