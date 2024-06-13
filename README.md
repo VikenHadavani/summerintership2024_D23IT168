@@ -154,3 +154,17 @@ https://github.com/hamidgholami/accp-cheatsheet
 - CDN(Content Delivery Network) --
 
 <img src="https://d1.awsstatic.com/products/cloudfront/product-page-diagram_CloudFront_HIW.475cd71e52ebbb9acbe55fd1b242c75ebb619a2e.png" width="550" height="300"/>
+
+### Day 3: Advanced Security and Monitoring
+
+➠ Created a new KMS key:
+- Created a new AWS Key Management Service (KMS) key to manage encryption keys. KMS provides centralized control over encryption keys, enhancing data security.
+   
+➠ Changed the default encryption key for the S3 bucket to the new KMS key:
+- Configured the S3 bucket to use the newly created KMS key for default encryption. This ensures that all future objects uploaded to the bucket are encrypted using the KMS key, providing an additional layer of security.
+   
+➠ Used CloudTrail to track events and logs related to the S3 bucket and other activities:
+- Utilized AWS CloudTrail to monitor and log activities related to the S3 bucket. CloudTrail provides visibility into API calls and user actions, aiding in compliance and security analysis.
+   
+➠ Shut down the EC2 instance created in Week 1:
+- As part of resource management and cost control, I shut down the EC2 instance that was set up during the first week. This practice helps avoid unnecessary charges and optimizes resource usage.
