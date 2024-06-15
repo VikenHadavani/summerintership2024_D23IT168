@@ -168,3 +168,17 @@ https://github.com/hamidgholami/accp-cheatsheet
    
 ➠ Shut down the EC2 instance created in Week 1:
 - As part of resource management and cost control, I shut down the EC2 instance that was set up during the first week. This practice helps avoid unnecessary charges and optimizes resource usage.
+
+### In Day 4-5 i was supposed to explore and learn new services in brief by my own
+
+### Day 4: Discovering AWS Athena's Capabilities
+
+➠ Explored the versatility of SQL queries in AWS Athena
+  - Investigated the range of SQL queries possible in AWS Athena, understanding how it interacts with data stored in S3 and the types of analysis that can be performed.
+    
+➠ Examined data partitioning strategies*:
+  - Studied various data partitioning strategies and their impact on query performance in Athena, gaining insights into how partitioning contributes to cost savings.
+    
+➠ Learned about AWS Glue Data Catalog integration
+  - Explored how AWS Glue Data Catalog serves as a central metadata repository and how it integrates with Athena to make S3 data easily searchable and queryable.
+
