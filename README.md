@@ -114,6 +114,7 @@ Utilized event listeners and DOM manipulation to create a more engaging user exp
 https://github.com/hamidgholami/accp-cheatsheet
 
 ## 2️⃣ week 2
+
 ### *4th June 2024*
 - *Online Session*: Learning about storage and S3 with its related services ,also swictching from EC2 to S3
 - In the start of meeting we were asked rapid questions regarding week 1 task.
@@ -192,4 +193,31 @@ https://github.com/hamidgholami/accp-cheatsheet
     
 ➠ Reviewed error handling in Step Functions workflows*:
   - Reviewed best practices for implementing error handling in Step Functions workflows, appreciating the importance of resilience in service orchestration.
+
+## 3️⃣ week 3
+
+### 12th June 2024
+- Online Session: Introduction to AWS DynamoDB, API Gateway, and Lambda Functions
+- This week focused on building a serverless backend using AWS services like DynamoDB, API Gateway, and Lambda Functions. We worked on a project to create CRUD APIs for managing items in a DynamoDB table.
+
+  <img src="https://media.licdn.com/dms/image/D5612AQFMBfd4HnZ0Iw/article-cover_image-shrink_720_1280/0/1699630089018?e=1724284800&v=beta&t=eG1tqVAl1EvKAu9J4LmAqAmFE5uxPQReQJEz88P8xiA" width="550" height="300"/>
+
+
+### Here is the Outline of Week-3:
+1. Create a table in DynamoDB
+2. Write a Lambda Function as a Backend
+3. Configure API Endpoints on API Gateway
+4. Get /items
+5. Put /items
+6. Get /items/{id}
+7. Delete /items/{id}
+8. Configure API Endpoints with Lambda Code
+9. Test Out APIs through Curl and Browser
+
+## 📝 Day-by-Day Progress
+
+### Day 1: Creating a Table in DynamoDB
+➠ *Create a table in DynamoDB*:
+- Created a new table in Amazon DynamoDB. DynamoDB is a fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale. I configured the table with a primary key and other necessary attributes to store item data efficiently.
+
 
