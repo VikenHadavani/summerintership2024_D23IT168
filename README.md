@@ -217,7 +217,14 @@ https://github.com/hamidgholami/accp-cheatsheet
 ## 📝 Day-by-Day Progress
 
 ### Day 1: Creating a Table in DynamoDB
-➠ *Create a table in DynamoDB*:
+
+➠ Create a table in DynamoDB
 - Created a new table in Amazon DynamoDB. DynamoDB is a fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale. I configured the table with a primary key and other necessary attributes to store item data efficiently.
+
+  ### Day 2: Writing Lambda Functions
+  
+➠ Write a Lambda Function as a Backend
+- Developed a Lambda function to serve as the backend logic for our CRUD operations. AWS Lambda allows you to run code without provisioning or managing servers. The function was written in Python and included logic to interact with DynamoDB for various operations like retrieving, inserting, updating, and deleting items.
+
 
 
