@@ -226,5 +226,11 @@ https://github.com/hamidgholami/accp-cheatsheet
 ➠ Write a Lambda Function as a Backend
 - Developed a Lambda function to serve as the backend logic for our CRUD operations. AWS Lambda allows you to run code without provisioning or managing servers. The function was written in Python and included logic to interact with DynamoDB for various operations like retrieving, inserting, updating, and deleting items.
 
+### Day 3: Configuring API Endpoints
+
+➠ Configure API Endpoints on API Gateway
+- Set up API Gateway to expose our Lambda functions as RESTful API endpoints. Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. Configured the endpoints for the various CRUD operations.
+
+
 
 
