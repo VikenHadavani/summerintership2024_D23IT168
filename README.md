@@ -231,6 +231,27 @@ https://github.com/hamidgholami/accp-cheatsheet
 ➠ Configure API Endpoints on API Gateway
 - Set up API Gateway to expose our Lambda functions as RESTful API endpoints. Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. Configured the endpoints for the various CRUD operations.
 
+### Day 4: Implementing CRUD Operations
+
+➠ *Get /items
+- Configured the GET /items endpoint to retrieve all items from the DynamoDB table. This endpoint interacts with the Lambda function to fetch and return the list of items.
+
+➠ Put /items
+- Set up the PUT /items endpoint to add new items to the DynamoDB table. The Lambda function processes the incoming request and inserts the new item into the table.
+
+➠ Get /items/{id}
+- Implemented the GET /items/{id} endpoint to retrieve a specific item by its ID. The Lambda function uses the ID parameter to query DynamoDB and return the requested item.
+
+➠ Delete /items/{id}
+- Configured the DELETE /items/{id} endpoint to remove an item from the DynamoDB table based on its ID. The Lambda function handles the deletion process and ensures the item is removed.
+
+➠ Configure API Endpoints with Lambda Code
+- Linked the API Gateway endpoints with the corresponding Lambda functions. This integration allows API Gateway to invoke the correct Lambda function for each API request, ensuring the backend logic is executed properly.
+
+➠ Test Out APIs through Curl and Browser
+- Tested the configured APIs using curl commands and a web browser to ensure they work as expected. Verified that the CRUD operations (Create, Read, Update, Delete) perform correctly and that the APIs return the appropriate responses for different scenarios.
+
+
 
 
 
