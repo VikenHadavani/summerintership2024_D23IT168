@@ -9,7 +9,7 @@ Welcome to my GitHub repository for the AWS Summer Internship 2024! This project
 
 ### *25th May 2024*
 - *AWS Bootcamp Live Session*: Basics of Amazon Web Services
-- On 25th may, there was a live bootcamp which Amit Arora(Security Architect at AWS) is doing for an AWS Club where entry level engineers can participate and build there AWS skills from groundsup.. So it wasn't the start of internship but we learnt the basics of amazon web services , how it provides various functionalities to developers.
+- On 25th may, there was a live bootcamp which Amit Arora sir(Security Architect at AWS) is doing for an AWS Club where entry level engineers can participate and build there AWS skills from groundsup.. So it wasn't the start of internship but we learnt the basics of amazon web services , how it provides various functionalities to developers.
 The internsip period is of 4 weeks with focus on Labs and Practical Insights to make familiar with aws.
 
 # Start of Internship
@@ -313,4 +313,25 @@ https://github.com/hamidgholami/accp-cheatsheet
 
 ➠Interact with your Resume
 - Interacted with the resume through the agent. This involved querying the agent to retrieve specific information from the resume, ensuring the setup was functional and effective.
+
+## Problems faced after few Days of competion of Internship
+
+- After completion of Internship on 30 June I came across the mails that my billing charges are getting than we are expecting.
+- Then I contact Amit Aurora sir and he helped me and we come to know that my bedrock,KMS,Agent Services are still on.
+- then we conatact to AWS support and wrote them that we are student and we were exploring the servies and went dee,it was not intentionally
+- then we go reply for few days and i reply them back everyday like they were mailing me to xyz servies are still on and terminate them
+- iused to terminate them accordingly and sending them attachment for proof and on 15 july the billing things was sorted out
+- all thnaks to AWS and Amit sir for Guiding me
+
+
+## 🤝 Connect with Me
+
+- LinkedIn: [[https://www.linkedin.com](https://www.linkedin.com/in/viken-hadavani-27b6412b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bc%2BtFz8i0SqaVmf395szcFw%3D%3D)]
+
+- Email: [vikenhadavani@gmail.com]
+
+
+Thank you for visiting my project! Feel free to reach out if you have any questions or feedback. ✨
+
+
 
